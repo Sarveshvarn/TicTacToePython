@@ -9,9 +9,9 @@ vec2 = pg.math.Vector2
 CELL_CENTER = vec2(CELL_SIZE / 2)
 
 FPS = 60
-FIELD_IMAGE = 'resources/field.png'
-O_IMAGE = 'resources/o.png'
-X_IMAGE = 'resources/x.png'
+FIELD_IMAGE = 'assets/field.png'
+O_IMAGE = 'assets/o.png'
+X_IMAGE = 'assets/x.png'
 
 class TicTacToe:
     def __init__(self, game):
